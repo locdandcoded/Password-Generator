@@ -21,3 +21,4 @@ function myFunction(){
     ////add password to text box////
     document.getElementById("textbox").value = password;
 }
+

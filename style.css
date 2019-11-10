@@ -1,3 +1,10 @@
 #slider {
     width: 100%;
+    content: "";
+}
+#textbox {
+    background-color: white;
+}
+.display-4 {
+    text-align: center;
 }

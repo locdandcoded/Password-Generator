@@ -7,7 +7,7 @@
     <title>Random Password Generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
   </head>
 <body>
     <div class="container">
@@ -19,6 +19,7 @@
                 <h1 class="display-4">Generate a Password</h1>
                 <hr>
                 <input class="form-control" type="text" placeholder="Your Secure Password" readonly id="textbox">
+                <div id="length"></div>
                 <hr>
                 <input type="range" min="0" max="50" name="slider" id="slider">
                 <button onclick="myFunction()" type="button" class="btn btn-danger btn-lg btn-block">Generate Password</button>
@@ -29,5 +30,6 @@
           </div>
         </div>
       </div>
+      <script src="script.js"></script>
 </body>
 </html>
